@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<title>纯CSS实现图片等比缩放兼容IE6/IE7/火狐/谷歌_懒人建站</title>
+<style type="text/css">
+.suofang {MARGIN: auto;WIDTH: 800px;}
+.suofang img{MAX-WIDTH: 100%!important;HEIGHT: auto!important;width:expression(this.width > 800 ? "800px" : this.width)!important;}
+</style>
+</head>
+<body>
+<div class="suofang">
+<img src="images/background-1.png"/>
+</div>
+</body>
+</html>
